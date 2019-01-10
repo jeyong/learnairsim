@@ -22,6 +22,16 @@
   * bulid 시 error 발생 원인 : 한글 windows 10 사용시 파일 인코딩 문제로 인한 컴파일 오류 발생
     * 해결방법 : 해당 파일을 메모장에서 열어서 'utf-8'로 다시저장
 
+### 최신 코드로 유지하기
+ * airsim 프로젝트가 자주 변경되기 때문에 업데이트된 소스를 받는 것이 중요
+ * 최신 상태로 유지하는 방법 (AirSim Project)
+   * clean.bat 파일 실행
+     * 빌드하면서 생성된 파일들 제거
+   * > git pull 
+   * > build.cmd
+   * AirSim/Unreal/Plugins 폴더를 기존에 사용하던 프로젝트에 덮어쓰기
+   * 해당 프로젝트에서 .uproject에 대해서 "Generate Visual Studio project files" 실행하기
+  
 ### 단순 환경
 #### Block Environment
  * 저사양 환경하여 AirSim 맛보기 가능한 환경
@@ -37,4 +47,13 @@
  * 
 
 #### Neighborhood Environment
- * 
+ * 다른 화면이 실행되는 경우
+   * MatineeActor로 환경이 실행되는 경우로 이것을 삭제
+   * Blueprint에서 삭제 방법
+     * Blueprint
+     * Event graph에서 Begin Play event를 살펴보기
+     * "matinee"를 구동시키는 연결을 끊어주기 
+ * Unreal Editor 설정
+   * Project Settings -> Maps & Modes 로 진입
+   * Editor Starter Map와 Game Default Map을 모두 Demo_Map 으로 설정
+   
