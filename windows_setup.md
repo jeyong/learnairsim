@@ -68,7 +68,7 @@
  * NHTest
    * AirSim/unreal/Plugins 를 복사해서 NHTest 프로젝트에 복사
    * NHTest.uproject 파일 열기
-```
+```json
 {
 	"FileVersion": 3,
 	"EngineAssociation": "4.18",
