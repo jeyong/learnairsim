@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# Sensors
 ## 현재 지원 Sensor
  * Camera
@@ -70,4 +71,4 @@
             }
         }
    }
-```
+

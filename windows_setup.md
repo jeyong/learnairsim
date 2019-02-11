@@ -11,6 +11,10 @@
  * Epic Games Launcher 실행
    * 왼쪽 패널에서 'Library' 클릭
    * 'Add Versions' 을 클릭해서 'Unreal 4.18.x'을 다운로드 받기
+ * 영문 설정
+   * 메뉴나 항목이 모두 영어로 되어 있는 경우가 많아서 현재 한글과 영어로 혼용된 설정을 영문으로 바꾸기
+   * Epic Games -> Settings -> Language -> English
+   * Engine Editor -> Edit -> Editor Preferences -> Region & Language -> Editor Language -> English
 
 ### Unreal Project 빌드
  * VS 2017용 x64 네이티브 도구 명령 프롬프트 실행
@@ -47,6 +51,11 @@
  * 
 
 #### Neighborhood Environment
+ * Editor -> New Proejct -> C++  -> Basic Code -> No Starter Content -> NHTest -> Create Project
+ * Epic -> Library -> Modular Neighborhood Pack -> Add To Project -> NHTest -> Add to Project -> NHTest 실행
+ * Editor -> Project Settings -> Maps & Modes -> Default Maps를 Demo_Map으로 변경
+ * Content Browser -> ModularNeighborHoodPack -> Demo_Map -> 
+
  * 다른 화면이 실행되는 경우
    * MatineeActor로 환경이 실행되는 경우로 이것을 삭제
    * Blueprint에서 삭제 방법
@@ -56,4 +65,34 @@
  * Unreal Editor 설정
    * Project Settings -> Maps & Modes 로 진입
    * Editor Starter Map와 Game Default Map을 모두 Demo_Map 으로 설정
-   
+ * NHTest
+   * AirSim/unreal/Plugins 를 복사해서 NHTest 프로젝트에 복사
+   * NHTest.uproject 파일 열기
+```json
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.18",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "NHTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+                "AirSim"
+            ]
+		}
+	],
+	"Plugins": [
+        {
+            "Name": "AirSim",
+            "Enabled": true
+        }
+    ]
+}
+```
+   * NHTest.uproject -> 오른쪽 클릭 -> Generate Visual Studio Project Files... 
+   * NHTest.sln 파일 열기 (VS 2017 실행)
+   * VS 2017 -> Debug GameEditor -> Win64 로 설정 후 -> F5로 실행
+   * Editor -> World Settings -> Game Mode Override -> AirSimGameMode 
