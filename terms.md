@@ -1,4 +1,4 @@
-(용어)[http://api.unrealengine.com/KOR/GettingStarted/Terminology/index.html]
+[용어](http://api.unrealengine.com/KOR/GettingStarted/Terminology/index.html)
 
 GameMode
  * 게임의 규칙을 설정
