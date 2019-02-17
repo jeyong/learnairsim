@@ -18,3 +18,10 @@ AirSim
    * 시뮬레이션 도중에 받은 Input으로 Vehicle을 움직임
  * HUD
    * Camera로부터의 View 위에 비행과 관련된 정보들을 보여주는 HUD
+
+---------------
+Unreal Engine 구동
+ * http://api.unrealengine.com/images/Gameplay/Framework/GameFlow/GameFlowChart.png
+ * Editor로 실행하는 경우와 exe 파일로 생성하여 구동하는 경우에 대한 설명
+
+
