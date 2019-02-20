@@ -53,8 +53,8 @@
 #### Neighborhood Environment
  * Editor -> New Proejct -> C++  -> Basic Code -> No Starter Content -> NHTest -> Create Project
  * Epic -> Library -> Modular Neighborhood Pack -> Add To Project -> NHTest -> Add to Project -> NHTest 실행
- * Editor -> Project Settings -> Maps & Modes -> Default Maps를 Demo_Map으로 변경
- * Content Browser -> ModularNeighborHoodPack -> Demo_Map -> 
+ * Edit -> Project Settings -> Maps & Modes -> Default Maps를 Demo_Map으로 변경
+ * Content Browser -> ModularNeighborHoodPack -> Mpas -> Demo_Map  
 
  * 다른 화면이 실행되는 경우
    * MatineeActor로 환경이 실행되는 경우로 이것을 삭제
