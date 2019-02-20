@@ -62,6 +62,7 @@
      * Blueprint
      * Event graph에서 Begin Play event를 살펴보기
      * "matinee"를 구동시키는 연결을 끊어주기 
+     * 'World Outliner'에서 삭제 or Blueprints -> Open Level Blueprint 에서 삭제(matinee와 actor 삭제)
  * Unreal Editor 설정
    * Project Settings -> Maps & Modes 로 진입
    * Editor Starter Map와 Game Default Map을 모두 Demo_Map 으로 설정
