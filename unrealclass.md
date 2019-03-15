@@ -116,3 +116,6 @@
 ## Camera 사용법
   * camera를 level에 위치시키면, PIP 윈도우가 Viewport에 추가되며 Camera의 보는 각도가 나타난다.
   * Camera의 이름이 윈도우의 상단 중간에 표시
+  
+## Sequence
+ * [executiong sequences](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameFlow)
