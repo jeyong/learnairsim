@@ -118,4 +118,4 @@
   * Camera의 이름이 윈도우의 상단 중간에 표시
   
 ## Sequence
- * [executiong sequences](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameFlow)
+ * [executing sequences](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameFlow)
