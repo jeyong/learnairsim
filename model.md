@@ -8,7 +8,7 @@
   * SetupPropRatationMovement
     * Prop 속도 조절
   * 핵심 : FlyingPawn 상속 받은 BluePrints 생성
-
+* 참고 강의 : https://cafe.naver.com/unrealenginekr/735
 ----
 * 비행체 선택
   * ASimHUD::createSimMode()
