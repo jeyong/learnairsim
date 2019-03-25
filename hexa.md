@@ -43,5 +43,10 @@ set HIL yes
 ## AirSim
  * settings.json 파일 
    * "Model": "Subakcopter"
- * Px4MultiRotor.hpp 파일의 setupFrameGenericHex()
-   * initializeRotorHex 호출
+ * Px4MultiRotorParams.hpp 파일
+   * Px4MultiRotorParams::setupParams()에서
+```c++
+        else if (connection_info_.model == "Subakcopter") {
+            setupFrameSubakcopter(params);
+        }
+```
