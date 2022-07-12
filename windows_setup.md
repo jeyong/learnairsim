@@ -51,7 +51,7 @@
  * 
 
 #### Neighborhood Environment
- * Editor -> New Proejct -> C++  -> Basic Code -> No Starter Content -> NHTest -> Create Project
+ * Editor -> New Project -> C++  -> Basic Code -> No Starter Content -> NHTest -> Create Project
  * Epic -> Library -> Modular Neighborhood Pack -> Add To Project -> NHTest -> Add to Project -> NHTest 실행
  * Edit -> Project Settings -> Maps & Modes -> Default Maps를 Demo_Map으로 변경
  * Content Browser -> ModularNeighborHoodPack -> Mpas -> Demo_Map  
@@ -64,7 +64,7 @@
      * "matinee"를 구동시키는 연결을 끊어주기 
      * 'World Outliner'에서 삭제 or Blueprints -> Open Level Blueprint 에서 삭제(matinee와 actor 삭제)
  * Unreal Editor 설정
-   * Project Settings -> Maps & Modes 로 진입
+   * Edit -> Project Settings -> Maps & Modes 로 진입
    * Editor Starter Map와 Game Default Map을 모두 Demo_Map 으로 설정
  * NHTest
    * AirSim/unreal/Plugins 를 복사해서 NHTest 프로젝트에 복사
